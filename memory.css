@@ -1,0 +1,41 @@
+body {
+  background-color:#FFE4B5;
+  /* text-align: center; */
+}
+
+#panel  {
+  width: windowWidth-30;
+  height:(windowWidth-30)/3;
+  overflow:hidden;
+  margin: auto;
+}
+
+.card{
+  width : 18vw;
+  height: 12vw;
+  border: 1px solid silver;
+  border-radius:10px;
+  float:left;
+  cursor: pointer;
+}
+img{
+  width: 18vw;
+  height: 12vw;
+}
+
+    /* 裏の状態 */
+    .back{
+      background-image: url('img/back.jpg');
+      background-size: 18vw 12vw;
+      }
+
+/* 終了時 */
+.finish {
+  opacity: 1;
+  cursor: default;
+}
+/* 経過秒数 */
+#result {
+  font-size: 1.2em;
+  font-weight: bold;
+}
